@@ -1,0 +1,22 @@
+.main-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0em 5em;
+}
+
+.post-card {
+    width: 30%;
+    background-color: rgb(244, 244, 244);
+    margin: 1em 0em;
+    padding: 1em;
+}
+
+.post-title {
+    max-width : 70%;
+    overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0em 0em;
+}

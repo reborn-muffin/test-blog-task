@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/header.css" type="text/css">
+
+    <script src="./js/PostAPI.js"></script>
+    <script src="./js/PostUtils.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <h2 class="header-title">Simple Blog</h2>
+        </div>
+        
+        <nav>
+            <div class="menu">
+                <a href="index.html">All posts</a>
+                <a onclick="PostUtils.createPost()">Create post</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="posts-root" class="main-post">
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            PostUtils.loadAllPosts();
+        });
+    </script>
+</body>
+</html>

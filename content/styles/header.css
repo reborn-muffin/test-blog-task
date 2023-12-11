@@ -1,0 +1,28 @@
+.header-logo {
+    background-color: #68B984;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(244, 244, 244);
+}
+
+.menu a {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0.6em 1em;
+    color: #68B984;
+    cursor: pointer;
+}
