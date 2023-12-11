@@ -1,7 +1,7 @@
 # Simple Blog CRUD
 
 A lightweight CRUD (Create, Read, Update, Delete) Blog app with javascript.
-Features:
+## Features:
     CRUD Operations: Effortlessly manage blog posts.
 
 ## Demo
