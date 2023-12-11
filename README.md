@@ -1,6 +1,6 @@
 # Simple Blog CRUD
 
-A lightweight CRUD (Create, Read, Update, Delete) Blog app with [Your Tech Stack].
+A lightweight CRUD (Create, Read, Update, Delete) Blog app with javascript.
 Features:
     CRUD Operations: Effortlessly manage blog posts.
 
